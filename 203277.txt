@@ -1,0 +1,60 @@
+4. Napraven lokalen direktorium so pomos na komandata mkdir i 
+inicijaliziranje na istiot so komandata git init.
+
+5. Povrzan lokalen repozitorium so remote repozitorium so pomos na 
+komandata git remote add origin git@github.com:lukaindovski/SI_2023_lab1_203277.git
+
+6. Dodaden nov file README.md so pomos na komandata nano README.md za 
+direktno pisuvanje vo file.
+Staven na stage so komanda git add README.md i napraven prv commit so 
+komandata git commit -m "Initial commit".
+
+7. Dodaden nov file SILab1.java vo lokalniot repozitorium so komandata 
+nano SILab1.java, staven na stage so komandata git add SILab1.java i 
+napraven commit so komandata git commit -m "Add java class".
+
+8. Uspesno sinhroniziran lokalen repozitorium so remote repozitorium so pomos
+na komandata git push -u origin master.
+
+9. Otvoreni tri granki bug1, bug2 i bug3 so pomos na komandite git branch bug1, git branch bug2,
+git branch bug3.
+
+10. Se prefrlame na grankata bug1 so pomos na komandata git checkout bug1.
+
+11. So otvoranje na Java klasata so pomos na komandata nano, ja popravame greskata (namesto <= stavame <) vo for ciklusot i
+pravime commit so komandata git commit -m "Fix wrong loop for reading".
+
+12. Se prefrlame na grankata bug2 so pomos na komandata git checkout bug2.
+
+13. Ja popravame greskata vo filterOddNumbers funkcijata so stavanje na % 2 != 0 namesto % 2 == 0 i pravime commit so komandata git commit -m "Fix wrong condition in filterOddNumbers".
+
+14. Se prefrlame na grankata bug3 so pomos na komandata git checkout bug3.
+
+15. Gi popravame greskite vo sumEvenNumbers funkcijata (sumata ja inicijalizirame na 0 i namesto sum *= stavame sum +=) i pravime commit so komandata git commit -m "Fix method sumEvenNumbers".
+
+16. Sinhronizirani site granki so komandata git push --all.
+
+17. Se prefrlame na grankata master so komandata git checkout master.
+
+18. Ja spojuvame grankata bug1 kon grankata master so pomos na komandata git merge bug1.
+
+19. Sinhronizirano so komandata git push -u origin master.
+
+20. Ja spojuvame grankata bug2 kon grankata master so pomos na komandata git merge bug2.
+
+21. Sinhronizirano so komandata git push -u origin master.
+
+22. Se prefrlame na grankata bug3 so komandata git checkout bug3.
+
+23. Pravime rebase kon grankata master so pomos na komandata git rebase master.
+
+24. Se prefrlame na grankata master so komandata git checkout master.
+
+25. Ja spojuvame grankata bug3 kon grankata master so pomos na komandata git merge bug3.
+
+26. Sinhronizirani so git push --all --force.
+
+27. Dodadena nova logs.txt datoteka so komandata nano logs.txt i iskopiran izlezot od komandata git log. Staveni novi fajlovi vo stage so pomos na git add . i napraven posleden commit so komandata git commit -m "Final commit".
+
+28. Sinhronizirani site granki so remote repozitoriumot so pomos na komandata git push --all.
+

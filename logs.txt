@@ -1,0 +1,25 @@
+lukaindo@Lukas-Air SI_2023_lab1_203277 % git log       
+commit 1c04f170dea4256ee20ef0dd298b9afefb9e9f28 (HEAD -> master, 
+origin/master, bug3)
+Author: Luka Indovski <luka.indovski.01@gmail.com>
+Date:   Wed Mar 15 17:15:01 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit 6a4687e39267fa18403b402c4354ee7c50db93d8
+Merge: cec9212 e57de42
+Author: Luka Indovski <luka.indovski.01@gmail.com>
+Date:   Wed Mar 15 17:26:26 2023 +0100
+
+    Merge branch 'bug2'
+
+commit e57de420ced88b17fd1df0a6900be8641c3a6e43 (origin/bug2, bug2)
+Author: Luka Indovski <luka.indovski.01@gmail.com>
+Date:   Wed Mar 15 17:10:08 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit cec921250d5dec784d68f0d38e06e93daf3dd6d7 (origin/bug1, bug1)
+Author: Luka Indovski <luka.indovski.01@gmail.com>
+Date:   Wed Mar 15 17:05:54 2023 +0100
+
